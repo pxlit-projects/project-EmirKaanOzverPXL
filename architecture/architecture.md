@@ -29,4 +29,17 @@ De Eureka Discovery Service zorgt ervoor dat alle microservices elkaar kunnen we
 
 De communicatie tussen de microservices gebeurt synchroon (open-feign) of asynchroon (rabbitmq messagebus). Elke microservice heeft ook zijn eigen databank om aan te spreken.
 
+## Syncrhone Communicatie
+- Post opslaan als concept
+- Inhoud post bewerken
+- Posts bekijken
+- Posts goedkeuren / afwijzen
+- Opmerkingen toevoegen
+- Andere comments lezen
+- Eigen comments bewerken / verwijderen
+
+## Asynchrone Communicatie
+- Posts plaatsen
+- Comments plaatsen
+
 ![Architecture Diagram](https://github.com/pxlit-projects/project-EmirKaanOzverPXL/blob/main/architecture/architecture.png)
